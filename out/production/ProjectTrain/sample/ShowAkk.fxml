@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Table">
+    <children>
+        <TableView fx:id="table" layoutX="14.0" layoutY="8.0" prefHeight="342.0" prefWidth="600.0" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="col_fn" prefWidth="120.0" text="First name" />
+                <TableColumn fx:id="col_ln" prefWidth="120.0" text="Last name" />
+                <TableColumn fx:id="col_mail" prefWidth="110.0" text="Mail" />
+                <TableColumn fx:id="col_login" prefWidth="120.0" text="Username" />
+                <TableColumn fx:id="col_password" prefWidth="120.0" text="password" />
+            </columns>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </TableView>
+        <Button fx:id="back" mnemonicParsing="false" text="Back" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="550.0" />
+        <Button fx:id="add" layoutX="489.0" layoutY="348.0" mnemonicParsing="false" text="Add" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="489.0" />
+        <TextField fx:id="username" layoutX="293.0" layoutY="354.0" prefHeight="26.0" prefWidth="85.0" promptText="username" style="-fx-border-color: black;" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="293.0" AnchorPane.topAnchor="354.0" />
+        <TextField fx:id="email" layoutX="202.0" layoutY="354.0" prefHeight="26.0" prefWidth="85.0" promptText="email" style="-fx-border-color: black;" AnchorPane.rightAnchor="313.0" AnchorPane.topAnchor="354.0" />
+        <TextField fx:id="lastname" layoutX="111.0" layoutY="354.0" prefHeight="26.0" prefWidth="85.0" promptText="lastname" style="-fx-border-color: black;" AnchorPane.rightAnchor="404.0" AnchorPane.topAnchor="354.0" />
+        <TextField fx:id="firstname" layoutX="20.0" layoutY="354.0" prefHeight="26.0" prefWidth="85.0" promptText="firstname" style="-fx-border-color: black;" />
+        <TextField fx:id="password" layoutX="340.0" layoutY="10.0" prefHeight="26.0" prefWidth="92.0" promptText="password" style="-fx-border-color: black;" AnchorPane.bottomAnchor="17.0" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="354.0" />
+      <Button fx:id="load" layoutX="530.0" layoutY="353.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="24.0" text="Button" />
+    </children>
+</AnchorPane>
